@@ -237,8 +237,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (min-width: 1024px) {
   #hero {
-    background: url("../img/hero-bg-small.jpg") top center;
     background-attachment: fixed;
+  }
+}
+
+@media (max-width: 1024px) {
+  #hero {
+    background: url("../img/hero-bg-small.jpg") center center;
+    background-size: cover;
   }
 }
 @media (max-width: 768px) {
